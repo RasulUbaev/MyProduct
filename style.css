@@ -554,7 +554,7 @@ body {
     margin-top: 12px;
 }
 
-.card__title, .content__card:hover p {
+.card__title:hover p {
     color: #02897A;
 }
 
