@@ -21,6 +21,7 @@
     --color-text-443d: #22343D
     --bg-color-socials: #FFF;
     --bg-color-logo: #173a56;
+    --color-text-97a: #02897A;
 }
 
 .body-dark{
@@ -35,6 +36,7 @@
     --bg-text-343d: #3f3b3b;
     --bg-color-socials: #edfffc;
     --bg-color-logo: #FFF;
+    --color-text-97a: #02897A;
 
 }
 
@@ -555,7 +557,7 @@ body {
 }
 
 .card__title:hover p {
-    color: #02897A;
+    color: var(--color-text-97a);
 }
 
 .content__card:hover {
