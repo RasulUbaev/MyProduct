@@ -37,7 +37,6 @@
     --bg-color-socials: #edfffc;
     --bg-color-logo: #FFF;
     --color-text-97a: #02897A;
-
 }
 
 body {
@@ -71,7 +70,7 @@ body {
     left: 140px;
 }
 
-.nav__item--active a {
+.nav__item:hover a {
     color: var(--color-text-43d);
     font-weight: 700;
     font-size: 16px;
@@ -115,6 +114,15 @@ body {
     font-size: 30px;
     line-height: 28px;
     color: var(--bg-color-logo);
+
+}
+
+.nav__item--icon {
+    transition: 1s; 
+}
+
+.nav__item--icon:hover {
+       transform: rotate(360deg);
 }
 
 .nav__item--singup button {
