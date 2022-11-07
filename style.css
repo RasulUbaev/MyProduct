@@ -858,7 +858,10 @@ body {
     margin-top: 150px;
 }
 
-.footer__logo {}
+.footer__icons {
+    display: flex;
+    align-items: center;
+}
 
 .footer__logo__text {
     font-style: normal;
@@ -867,7 +870,7 @@ body {
     line-height: 28px;
     color: var(--bg-color-logo);
     position: relative;
-    left: 45px;
+    left: 16px;
     top: 3px;
 }
 
