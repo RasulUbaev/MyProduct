@@ -1131,8 +1131,8 @@ body {
         width: 100%;
     }
 
-    .wrapper__list__item>div {
-        width: 100%;
+    .wrapper__list__item  {
+        width: 95%;
         margin: 0;
     }
 
@@ -1142,6 +1142,8 @@ body {
 
     .item__headline {
         padding-bottom: 15px;
+        width: 95%;
+        
     }
 
     .wrapper__list__item--row {
@@ -1154,6 +1156,16 @@ body {
     .item__title-center p,
     .item__title-end p {
         width: 100%;
+    }
+
+    .collaborative__item__title-center p,
+    .collaborative__item__title-end p,
+    .item__headline p {
+        width: 100%;
+    }
+    
+    .item--row-span p {
+        width: 95%;
     }
 
     .item__title-center {
@@ -1243,10 +1255,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .table__item {
-        width: 400px;
+        width: 100%;
     }
 
 
@@ -1270,7 +1284,7 @@ body {
     .company__box {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
     }
 
     .company__title {
@@ -1345,6 +1359,7 @@ body {
     .footer__text {
         position: relative;
         top: 50px;
+        text-align: center;
     }
 
 
