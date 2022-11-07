@@ -1132,8 +1132,7 @@ body {
     }
 
     .wrapper__list__item  {
-        width: 95%;
-        margin: 0;
+        width: 98%;
     }
 
     .wrapp__item__img img {
@@ -1142,7 +1141,7 @@ body {
 
     .item__headline {
         padding-bottom: 15px;
-        width: 95%;
+        width: 99%;
         
     }
 
@@ -1153,8 +1152,7 @@ body {
     }
 
     .item__title-end p,
-    .item__title-center p,
-    .item__title-end p {
+    .item__title-center p {
         width: 100%;
     }
 
@@ -1166,6 +1164,9 @@ body {
     
     .item--row-span p {
         width: 95%;
+        font-size: 16px;
+        position: relative;
+        right: 17px;
     }
 
     .item__title-center {
@@ -1284,12 +1285,18 @@ body {
     .company__box {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 95%;
+        padding: 10px;
+        align-items: center;
     }
 
     .company__title {
         text-align: center;
-        width: 100%;
+        width: 100%; 
+    }
+
+    .company__img img {
+        width: 100%
     }
 
 
