@@ -1163,10 +1163,10 @@ body {
     }
     
     .item--row-span p {
-        width: 95%;
+        width: 310px;
         font-size: 14px;
         position: relative;
-        right: 17px;
+        right: 15px;
     }
 
     .item__title-center {
