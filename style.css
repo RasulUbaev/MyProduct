@@ -1126,7 +1126,6 @@ body {
     .main__wrapper__lists {
         display: flex;
         flex-direction: column-reverse;
-
     }
 
     .wrapper__list {
@@ -1145,7 +1144,6 @@ body {
     .item__headline {
         padding-bottom: 15px;
         width: 99%;
-        
     }
 
     .wrapper__list__item--row {
@@ -1324,7 +1322,6 @@ body {
         top: 30px;
         align-items: center;
         gap: 32px;
-
     }
 
     .footer__item-active {
