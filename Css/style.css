@@ -8,7 +8,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
 }
 
 :root {
@@ -20,6 +19,7 @@
     --color-text-443d: #22343D --bg-color-socials: #FFF;
     --bg-color-logo: #173a56;
     --color-text-97a: #02897A;
+  
 }
 
 .body-dark {
@@ -35,6 +35,7 @@
     --bg-color-socials: #edfffc;
     --bg-color-logo: #FFF;
     --color-text-97a: #02897A;
+    --bg-color-f5:#22343D;
 }
 
 body {
@@ -145,7 +146,7 @@ body {
 .mode-btn {
     width: 24px;
     height: 24px;
-    background-image: url(./image/Frame.svg);
+    background-image: url(../image/Frame.svg);
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -276,7 +277,7 @@ body {
 
 .product__lists__text {
     margin-top: 13px;
-    width: 240px;
+    width: 100%;
 }
 
 .product__lists__text p {
@@ -963,6 +964,66 @@ body {
     display: none;
 }
 
+@media only screen and (max-width: 960px) {
+    .container {
+        width: 100%;
+    }
+    
+    .nav__lists--menu {
+        left: 5px;
+    }
+
+    .entry__box {
+        display: grid;
+        grid-template-columns: 455px 420px;
+        gap: 50px;
+    }
+
+    .entry__img img {
+        width: 400px;
+        height: 452px;
+    }
+
+    .main__product__items {
+        margin-top: 58px;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 40px;
+    }
+
+    .product__lists, 
+    .product__lists__text p {
+        text-align: center;
+    }
+
+    .main__wrapper__lists {
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 146px;
+        justify-content: center;
+    }
+
+    .wrapper__list__item>div {
+        text-align: center;
+    }
+
+    .item__title-center, 
+    .item__title-end {
+        width: 400px;
+    }
+
+    .item__title-center p, 
+    .item__title-end p {
+        width: 100%;
+    }
+
+    .wrapp__item__img img {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
 @media only screen and (max-width: 576px) {
 
     .container {
@@ -1311,7 +1372,7 @@ body {
     .footer__container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center;    
     }
 
 
