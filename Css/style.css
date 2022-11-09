@@ -952,7 +952,7 @@ body {
 }
 
 .nav__burger {
-    background-image: url(./image/responsive/burger.svg);
+    background-image: url(../image/responsive/burger.svg);
     width: 28px;
     height: 31px;
     background-image: no-repeat;
@@ -964,7 +964,7 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 960px) {
     .container {
         width: 100%;
     }
@@ -1022,7 +1022,7 @@ body {
         text-align: center;
     }
     
-}
+} */
 
 @media only screen and (max-width: 576px) {
 
