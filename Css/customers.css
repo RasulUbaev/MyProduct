@@ -614,7 +614,7 @@ body {
     }
 
     .clients__img {
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 0;
@@ -649,6 +649,10 @@ body {
     .main__how__product {
         padding-bottom: 0;
     }
+
+    .how__box {
+        width: 100%;
+    }
     
     .how__img_title_box {
         padding-bottom: 0px;
@@ -663,7 +667,12 @@ body {
         flex-direction: column;
     }
 
+    .how__img img {
+       width: 90%;
+    }
+
     .how__title {
+        width: 90%;
         padding-bottom: 70px;
     }
 
