@@ -614,13 +614,14 @@ body {
     }
 
     .clients__img {
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 0;
     }
 
     .our__img img {
-        width: 95%;
+        width: 85%;
     }
 
     /* main__choose__product */
